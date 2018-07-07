@@ -1,0 +1,12 @@
+<div style="overflow: auto; background: lightgray">
+  <div class="chatform" style='width: 30%; float: left; margin-left: 50px; background: white'>
+    <message-list [messages]="messages"></message-list>
+    <message-form [message]="message" [messages]="messages"></message-form>
+  </div>
+
+  <div style='width: 60%; float: left; padding: 50px; margin: 20px; margin-top: 50px; height: 700px; background: white'>
+    <app-erp-table style="width: 100%"></app-erp-table>
+  </div>
+</div>
+
+

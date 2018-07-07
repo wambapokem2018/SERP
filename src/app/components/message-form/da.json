@@ -1,0 +1,60 @@
+{
+  "id": "c46673df-d69e-42cd-931c-ee7517fa6558",
+  "timestamp": "2018-06-23T13:02:44.052Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "ich mÃ¶chte in gema kv in dortmund von 10:30 bis 18:00 gestern buchen ",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "task": "gema",
+      "activity": "KV",
+      "location": "Dortmund",
+      "day": "2018-06-22",
+      "start": "10:30:00",
+      "end": "18:00:00"
+    },
+    "contexts": [
+      {
+        "name": "buchung",
+        "parameters": {
+          "start.original": "10:30",
+          "activity.original": "kv",
+          "task.original": "gema",
+          "day.original": "gestern",
+          "task": "gema",
+          "location.original": "dortmund",
+          "activity": "KV",
+          "start": "10:30:00",
+          "end": "18:00:00",
+          "location": "Dortmund",
+          "day": "2018-06-22",
+          "end.original": "18:00"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "9a76732c-c689-4840-8e10-ade2a58d89b1",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Buchung"
+    },
+    "fulfillment": {
+      "speech": "Was hast du gemacht?",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Was hast du gemacht?"
+        }
+      ]
+    },
+    "score": 0.8600000143051147
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "12345"
+}
